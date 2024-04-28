@@ -115,15 +115,15 @@
     color: white;
     font-size: 14px;
     font-weight: 500;
-}
+  }
 
-.settings-body .form .button:hover{
+  .settings-body .form .button:hover{
     background: transparent;
     color: var(--black-color);
-}
+  }
 
 
-.pfp .button{
+  .pfp .button{
     padding: 2px 15px;
     width: 100px;
     height: 25px;

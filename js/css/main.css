@@ -1,3 +1,211 @@
+/* start setting */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.landing{
+    height: 100vh;
+    background-image: url("/images/logo.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.settings-nav ul{
+    padding: 0;
+}
+
+
+
+.settings-nav ul li{
+    display: inline;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.settings-nav ul li:nth-child(2){
+    margin-left: 570px;
+}
+
+.settings-nav ul li a{
+    text-decoration: none;
+    color: var(--black-color);
+    transition: 0.2s;
+    padding-bottom:3px ;
+}
+
+
+.settings-nav ul li a:hover{
+    color: #333;
+}
+
+.settings-container .first{
+    width: 109%;
+    margin-left: -100px;
+    color: #333;
+    opacity: 0.3;
+    margin-top: -11px;
+}
+
+.settings-body{
+    display: flex;
+    gap: 150px;
+}
+
+.settings-body .form h4{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.settings-body .form p{
+    margin-bottom: 40px;
+}
+
+.settings-body .form .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.settings-body .form .inputs #name{
+    margin-bottom: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.615);
+    padding: 5px;
+    outline: none;
+}
+
+.settings-body .form .inputs #mail{
+    margin-bottom: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.615);
+    padding: 5px;
+    outline: none;
+}
+
+
+
+
+
+.settings-body .profile{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.pfp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+
+
+
+.settings-container .last{
+    width: 109%;
+    margin-left: -100px;
+    color: #333;
+    opacity: 0.3;
+    margin-top: 30px;
+}
+
+.settings-container .delete-account h3{
+    font-size: 30px;
+}
+
+.settings-container .delete-account p{
+    font-size: 16px;
+    margin-top: -20px;
+    color: #333;
+}
+
+.settings-container .delete-account .delete-button{
+    padding: 2px 15px;
+    width: 160px;
+    height: 25px;
+    background-color: red;
+    outline: 2px red solid;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 200ms;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.settings-container .button-red{
+    padding: 2px 15px;
+    width: 100px;
+    height: 25px;
+    background-color: red;
+    outline: 2px red solid;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 200ms;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.settings-container .button-red:hover{
+    background: transparent;
+    color: var(--black-color);
+    }
+
+.settings-container .delete-account .delete-button:hover{
+background: transparent;
+color: var(--black-color);
+}
+
+.test{
+    padding: 100px;
+}
+
+.test div{
+    margin-bottom: 10px;
+}
+
+.settings-container .appearance .themes{
+    display: flex;
+    gap: 30px;
+}
+
+.settings-container .appearance .themes .theme1{
+    border: 1px solid rgba(0, 0, 0, 0.675);
+    border-radius: 10px;
+    width: 250px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+
+.settings-container .appearance .themes .theme2{
+    border: 1px solid rgba(0, 0, 0, 0.675);
+    border-radius: 10px;
+    width: 250px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.settings-container .appearance .themes .theme2 img{
+    width: 227px;
+}
+
+.settings-container .appearance .themes img{
+    width: 100%;
+}
+
+/* end setting */
 
 /* start login  */
 .wrapper {
@@ -13,8 +221,6 @@
     align-items: center;
     overflow: hidden;
     transition: height 0.2s ease;
-    left: 500px;
-    
 } 
 
 .wrapper.active {
