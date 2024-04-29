@@ -176,12 +176,46 @@
     text-decoration: underline;
 }
 
+
+.pop-up {
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 15%);
+    padding: 16px;
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    text-align: center;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    transition: all .5s;
+    opacity: 0;
+    margin-top: 200px;
+    margin-left: -25px;
+}
+
+.pop-up.open {
+    opacity: 1;
+    top: 50%;
+}
+
+.pop-up .ok {
+    width: 100%;
+    border-radius: 50px;
+    border: 0;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #2ecc71;
+    color: #FFF;
+    cursor: pointer;
+}
+
 /* end login */
 
 
 
 
-/* start gallery */
+ /* start gallery  */
 .gallery .box-container {
     display: grid;
     grid-template-columns: repeat(3,1fr);
